@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AddBooklist.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row mt-3">
+            <div class="bg- col-sm-12 col-md-8 col-lg-6 shadow mx-auto rounded border-dark">
+                <form action="#" class="form">
+                    <div class="form-group">
+                        <label for="Title" class="mb-1">Title</label>
+                        <input type="text" class="form-control mb-2" placeholder="Enter Title" id="Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="Author" class="mb-1">Author</label>
+                        <input type="text" class="form-control mb-2" placeholder="Enter Author Name" id="Author">
+                    </div>
+                    <div class="form-group">
+                        <label for="ISBN" class="mb-1">ISBN</label>
+                        <input type="text" class="form-control mb-2" placeholder="Enter ISBN Number" id="ISBN">
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2 mb-2">Submit</button>
+                </form>
+                <h1 class="heading text-center mt-1 mb-2">Add Book</h1>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">ISBN</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class="Book-list">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="AddBooklist.js"></script>
+</body>
+
+</html>

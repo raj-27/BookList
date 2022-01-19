@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,WAAW;EACnB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "AddBooklist.scss"
+    ],
+    "names": [],
+    "file": "AddBooklist.css"
+}
